@@ -207,7 +207,7 @@ namespace StoreManagementSystem
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(73, 538);
+            this.label2.Location = new System.Drawing.Point(56, 550);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(182, 16);
             this.label2.TabIndex = 11;
@@ -217,7 +217,7 @@ namespace StoreManagementSystem
             // 
             this.loginLink.AutoSize = true;
             this.loginLink.LinkColor = System.Drawing.Color.Cyan;
-            this.loginLink.Location = new System.Drawing.Point(244, 538);
+            this.loginLink.Location = new System.Drawing.Point(244, 550);
             this.loginLink.Name = "loginLink";
             this.loginLink.Size = new System.Drawing.Size(79, 16);
             this.loginLink.TabIndex = 10;
@@ -238,8 +238,8 @@ namespace StoreManagementSystem
             // 
             // Register
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
             this.ClientSize = new System.Drawing.Size(400, 600);
             this.Controls.Add(this.showPassword);

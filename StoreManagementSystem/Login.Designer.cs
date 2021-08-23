@@ -48,7 +48,7 @@ namespace StoreManagementSystem
             // 
             this.showPassword.AutoSize = true;
             this.showPassword.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.showPassword.Location = new System.Drawing.Point(239, 252);
+            this.showPassword.Location = new System.Drawing.Point(247, 343);
             this.showPassword.Name = "showPassword";
             this.showPassword.Size = new System.Drawing.Size(129, 21);
             this.showPassword.TabIndex = 24;
@@ -61,7 +61,7 @@ namespace StoreManagementSystem
             this.loginLink.AutoSize = true;
             this.loginLink.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.loginLink.LinkColor = System.Drawing.Color.Cyan;
-            this.loginLink.Location = new System.Drawing.Point(221, 357);
+            this.loginLink.Location = new System.Drawing.Point(230, 542);
             this.loginLink.Name = "loginLink";
             this.loginLink.Size = new System.Drawing.Size(72, 17);
             this.loginLink.TabIndex = 26;
@@ -73,7 +73,7 @@ namespace StoreManagementSystem
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(60, 357);
+            this.label2.Location = new System.Drawing.Point(69, 542);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 17);
             this.label2.TabIndex = 27;
@@ -85,7 +85,7 @@ namespace StoreManagementSystem
             this.password.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.password.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.password.Location = new System.Drawing.Point(27, 204);
+            this.password.Location = new System.Drawing.Point(35, 295);
             this.password.Margin = new System.Windows.Forms.Padding(0);
             this.password.Multiline = true;
             this.password.Name = "password";
@@ -96,7 +96,7 @@ namespace StoreManagementSystem
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.Location = new System.Drawing.Point(18, 236);
+            this.pictureBox2.Location = new System.Drawing.Point(26, 327);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(350, 1);
             this.pictureBox2.TabIndex = 29;
@@ -105,7 +105,7 @@ namespace StoreManagementSystem
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(18, 152);
+            this.pictureBox1.Location = new System.Drawing.Point(25, 218);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(350, 1);
             this.pictureBox1.TabIndex = 28;
@@ -117,7 +117,7 @@ namespace StoreManagementSystem
             this.username.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.username.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.username.Location = new System.Drawing.Point(24, 121);
+            this.username.Location = new System.Drawing.Point(31, 187);
             this.username.Margin = new System.Windows.Forms.Padding(0);
             this.username.Multiline = true;
             this.username.Name = "username";
@@ -129,7 +129,7 @@ namespace StoreManagementSystem
             this.login_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.login_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login_btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.login_btn.Location = new System.Drawing.Point(96, 292);
+            this.login_btn.Location = new System.Drawing.Point(111, 453);
             this.login_btn.Name = "login_btn";
             this.login_btn.Size = new System.Drawing.Size(162, 47);
             this.login_btn.TabIndex = 25;
@@ -142,7 +142,7 @@ namespace StoreManagementSystem
             this.passwordLabel.AutoSize = true;
             this.passwordLabel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.passwordLabel.Location = new System.Drawing.Point(15, 178);
+            this.passwordLabel.Location = new System.Drawing.Point(23, 265);
             this.passwordLabel.Name = "passwordLabel";
             this.passwordLabel.Size = new System.Drawing.Size(85, 17);
             this.passwordLabel.TabIndex = 20;
@@ -153,7 +153,7 @@ namespace StoreManagementSystem
             this.usernameLabel.AutoSize = true;
             this.usernameLabel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.usernameLabel.Location = new System.Drawing.Point(15, 99);
+            this.usernameLabel.Location = new System.Drawing.Point(22, 153);
             this.usernameLabel.Name = "usernameLabel";
             this.usernameLabel.Size = new System.Drawing.Size(94, 17);
             this.usernameLabel.TabIndex = 16;
@@ -164,7 +164,7 @@ namespace StoreManagementSystem
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(136, 44);
+            this.label1.Location = new System.Drawing.Point(147, 74);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 28);
             this.label1.TabIndex = 15;
@@ -172,10 +172,10 @@ namespace StoreManagementSystem
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(49)))), ((int)(((byte)(66)))));
-            this.ClientSize = new System.Drawing.Size(400, 450);
+            this.ClientSize = new System.Drawing.Size(400, 600);
             this.Controls.Add(this.showPassword);
             this.Controls.Add(this.loginLink);
             this.Controls.Add(this.label2);

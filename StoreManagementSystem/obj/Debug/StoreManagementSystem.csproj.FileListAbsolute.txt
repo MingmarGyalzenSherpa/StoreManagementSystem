@@ -9,3 +9,8 @@ C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.pdb
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.Login.resources
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.Register.resources
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\bin\Debug\CircularProgressBar.dll
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\bin\Debug\WinFormAnimation.dll
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\bin\Debug\CircularProgressBar.xml
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.splashScreen.resources
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.csproj.CopyComplete
