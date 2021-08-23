@@ -1,0 +1,11 @@
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\bin\Debug\StoreManagementSystem.exe.config
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\bin\Debug\StoreManagementSystem.exe
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\bin\Debug\StoreManagementSystem.pdb
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.Properties.Resources.resources
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.exe
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.pdb
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.Login.resources
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.Register.resources
