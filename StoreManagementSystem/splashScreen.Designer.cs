@@ -138,6 +138,7 @@ namespace StoreManagementSystem
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MANAGEMENT SYSTEM";
+           
             this.ResumeLayout(false);
             this.PerformLayout();
 

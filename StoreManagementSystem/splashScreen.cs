@@ -52,5 +52,7 @@ namespace StoreManagementSystem
                 this.Hide();
             }
         }
+
+      
     }
 }

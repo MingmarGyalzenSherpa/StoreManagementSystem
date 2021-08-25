@@ -14,3 +14,5 @@ C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\bin\Debug
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\bin\Debug\CircularProgressBar.xml
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.splashScreen.resources
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.csproj.CopyComplete
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.Home.resources
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\bin\Debug\FontAwesome.Sharp.dll
