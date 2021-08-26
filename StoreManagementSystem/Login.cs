@@ -43,7 +43,9 @@ namespace StoreManagementSystem
                 sda.Fill(dt);
                 if(dt.Rows.Count>0)
                 {
-                    MessageBox.Show("Successfully logged in :)");
+                    Home home1 = new Home();
+                    home1.Show();
+                    this.Hide();
                 }
                 else
                 {
