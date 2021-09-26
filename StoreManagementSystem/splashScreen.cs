@@ -47,8 +47,8 @@ namespace StoreManagementSystem
             if(progressBar.Value == 100)
             {
                 timer1.Enabled = false;
-                Register rg = new Register();
-                rg.Show();
+                Login lg = new Login();
+                lg.Show();
                 this.Hide();
             }
         }

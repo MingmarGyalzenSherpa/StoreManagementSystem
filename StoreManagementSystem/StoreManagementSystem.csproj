@@ -55,11 +55,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addItemForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addItemForm.Designer.cs">
+      <DependentUpon>addItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoardForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashBoardForm.Designer.cs">
+      <DependentUpon>DashBoardForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InventoryForm.Designer.cs">
+      <DependentUpon>InventoryForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -67,6 +85,7 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainControlClass.cs" />
     <Compile Include="Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,8 +100,23 @@
     <Compile Include="splashScreen.Designer.cs">
       <DependentUpon>splashScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="TransactForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TransactForm.Designer.cs">
+      <DependentUpon>TransactForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addItemForm.resx">
+      <DependentUpon>addItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoardForm.resx">
+      <DependentUpon>DashBoardForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryForm.resx">
+      <DependentUpon>InventoryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -101,6 +135,9 @@
     </Compile>
     <EmbeddedResource Include="splashScreen.resx">
       <DependentUpon>splashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactForm.resx">
+      <DependentUpon>TransactForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

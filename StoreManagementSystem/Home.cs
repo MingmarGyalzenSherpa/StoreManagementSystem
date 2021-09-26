@@ -19,12 +19,15 @@ namespace StoreManagementSystem
         private Panel LeftBorderBtn;
 
 
-        public Home()
+       // public Home(string usercredential)
+          public Home()
         {
             InitializeComponent();
             LeftBorderBtn = new Panel();
-            LeftBorderBtn.Size = new Size(7, 77);
+            LeftBorderBtn.Size = new Size(7,85);
             sideMenuPanel.Controls.Add(LeftBorderBtn);
+            ActivatedButton(dashBoard_btn);
+            //username_label.Text = usercredential.ToUpper();
         }
 
         private void ActivatedButton(object senderBtn)
@@ -34,7 +37,7 @@ namespace StoreManagementSystem
             {
                 DeactivateBtn();
                 activeBtn = (IconButton)senderBtn;
-                activeBtn.Font = new Font(activeBtn.Font.FontFamily, 11);
+                activeBtn.Font = new Font(activeBtn.Font.FontFamily, 10);
                 activeBtn.BackColor = Color.FromArgb(72, 78, 102);
                 activeBtn.ForeColor = Color.IndianRed;
                 activeBtn.TextAlign = ContentAlignment.MiddleCenter;
@@ -70,11 +73,16 @@ namespace StoreManagementSystem
         private void dashBoard_btn_Click(object sender, EventArgs e)
         {
             ActivatedButton(sender);
+            DashBoardForm dashboard = new DashBoardForm();
+            MainControlClass.showControl(dashboard, Content);
+            
         }
 
         private void inventory_btn_Click(object sender, EventArgs e)
         {
             ActivatedButton(sender);
+            InventoryForm invent = new InventoryForm();
+            MainControlClass.showControl(invent, Content);
         }
 
         private void vendors_btn_Click(object sender, EventArgs e)
@@ -82,19 +90,23 @@ namespace StoreManagementSystem
             ActivatedButton(sender);
         }
 
-        private void customers_btn_Click(object sender, EventArgs e)
-        {
-            ActivatedButton(sender);
-        }
+       
 
         private void transact_btn_Click(object sender, EventArgs e)
         {
             ActivatedButton(sender);
+            TransactForm trans = new TransactForm();
+            MainControlClass.showControl(trans, Content);
         }
 
         private void settings_btn_Click(object sender, EventArgs e)
         {
             ActivatedButton(sender);
+        }
+
+        private void dashBoardForm1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

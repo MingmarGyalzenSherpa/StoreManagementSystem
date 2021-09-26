@@ -43,6 +43,7 @@ namespace StoreManagementSystem
                 sda.Fill(dt);
                 if(dt.Rows.Count>0)
                 {
+                    //Home home1 = new Home(username.Text);
                     Home home1 = new Home();
                     home1.Show();
                     this.Hide();

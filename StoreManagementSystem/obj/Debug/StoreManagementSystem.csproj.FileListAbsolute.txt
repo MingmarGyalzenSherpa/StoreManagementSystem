@@ -16,3 +16,7 @@ C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.csproj.CopyComplete
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.Home.resources
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.DashBoardForm.resources
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.TransactForm.resources
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.InventoryForm.resources
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.addItemForm.resources
