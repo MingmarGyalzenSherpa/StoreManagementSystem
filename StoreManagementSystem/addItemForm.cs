@@ -16,7 +16,7 @@ namespace StoreManagementSystem
         SqlConnection sql = new SqlConnection(@"Data Source=DESKTOP-0HA7MU0\SQLEXPRESS;Initial Catalog=StoreManagementSystem;Integrated Security=True");
         private string query;
      
-        int categId;
+        
 
         private void categComboBoxSetup()
         {
@@ -43,25 +43,25 @@ namespace StoreManagementSystem
            
         }
 
-        private void selectedCategory(object sender, EventArgs e)
+      
+
+        private void categoryComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             subCategoryComboBox.Items.Clear();
             sql.Open();
             int index;
-            index = categoryComboBox.SelectedIndex + 1;
-            MessageBox.Show(index.ToString());
-            string query = "Select subcateg_name from SubCategories where category_id ="+index;
+            index = categoryComboBox.SelectedIndex;
+            index += 1;
+            string query = "Select subcateg_name from SubCategories where category_id =" + index;
             SqlCommand cmd = new SqlCommand(query, sql);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);
-            foreach(DataRow dr in dt.Rows)
+            foreach (DataRow dr in dt.Rows)
             {
                 subCategoryComboBox.Items.Add(dr["subcateg_name"].ToString());
 
             }
-
-
         }
     }
 }

@@ -75,6 +75,7 @@ namespace StoreManagementSystem
             this.categoryComboBox.Name = "categoryComboBox";
             this.categoryComboBox.Size = new System.Drawing.Size(296, 24);
             this.categoryComboBox.TabIndex = 2;
+            this.categoryComboBox.SelectedIndexChanged += new System.EventHandler(this.categoryComboBox_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -121,7 +122,7 @@ namespace StoreManagementSystem
             this.subCategoryComboBox.Name = "subCategoryComboBox";
             this.subCategoryComboBox.Size = new System.Drawing.Size(296, 24);
             this.subCategoryComboBox.TabIndex = 7;
-            this.subCategoryComboBox.SelectedIndexChanged += new System.EventHandler(this.selectedCategory);
+            
             // 
             // label5
             // 

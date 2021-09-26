@@ -20,3 +20,4 @@ C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.TransactForm.resources
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.InventoryForm.resources
 C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.addItemForm.resources
+C:\Users\Dell\source\repos\StoreManagementSystem\StoreManagementSystem\obj\Debug\StoreManagementSystem.editItemForm.resources
